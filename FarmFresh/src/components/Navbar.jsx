@@ -1,4 +1,5 @@
 import "../styles/Navbar.css";
+import { HiOutlineShoppingBag } from "react-icons/hi2";
 
 const Navbar = () => {
   return (
@@ -12,9 +13,12 @@ const Navbar = () => {
       <a href="#products" target="_blank" rel="noopener noreferrer">
         Products
       </a>
-      <a href="#cart" target="_blank" rel="noopener noreferrer">
-        Cart
-      </a>
+      <div className="cart-container">
+        <a href="#cart" target="_blank" rel="noopener noreferrer">
+          Cart
+        </a>
+        <HiOutlineShoppingBag className="cart-icon" />
+      </div>
     </div>
   );
 };

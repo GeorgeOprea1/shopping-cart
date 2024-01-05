@@ -3,7 +3,7 @@ import LogoComponent from "./LogoComponent";
 import "../styles/HomeComponent.css";
 const HomeComponent = () => {
   return (
-    <div className="home-container">
+    <div className="home-container" id="home">
       <div className="home-header">
         <LogoComponent />
         <Navbar />
@@ -23,6 +23,19 @@ const HomeComponent = () => {
         alt="an image with some plants"
         className="image4"
       />
+
+      <div className="info-container">
+        <h1>
+          Get all of your important agricultural supplies and fertilizers seed
+          in one place.
+        </h1>
+        <p>
+          Our major goal is to give all of the items in one location so that
+          farmers can easily purchase seeds and fertilizers while also providing
+          the necessary seed and product knowledge.
+        </p>
+        <button className="signInBtn">Sign in</button>
+      </div>
     </div>
   );
 };

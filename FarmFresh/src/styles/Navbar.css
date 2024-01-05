@@ -19,9 +19,9 @@
 
 .link-container a {
   color: #696666;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .link-container a:active {
@@ -30,4 +30,23 @@
 
 .link-container a:hover {
   color: #077705;
+}
+
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart-icon {
+  cursor: pointer;
+  scale: 1.2;
+  color: #696666;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cart-icon:hover {
+  color: #077705;
+  transform: scale(1.2);
 }
