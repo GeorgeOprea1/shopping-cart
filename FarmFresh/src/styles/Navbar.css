@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 6rem;
+  width: 100%;
+  padding: 1rem 0 1rem 0;
+}
+
+.logo-container {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container img {
+  width: 90px;
+  height: 90px;
+}
+
+.link-container {
+  width: 65%;
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-bottom: 2px solid #696666;
+}
+
+.link-container a {
+  color: #696666;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.navbar a:active {
+  color: #077705;
+}
