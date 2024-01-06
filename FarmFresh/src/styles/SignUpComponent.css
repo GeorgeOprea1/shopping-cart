@@ -1,0 +1,6 @@
+.signUp-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 6rem;
+}

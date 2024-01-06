@@ -2,9 +2,9 @@ import "../styles/LogoComponent.css";
 
 const LogoComponent = () => {
   return (
-    <div className="logo-container">
+    <a href="#home" aria-label="Link to Home page" className="logo-container">
       <img src="../src/assets/logo.svg" alt="logo image" className="logo-img" />
-    </div>
+    </a>
   );
 };
 

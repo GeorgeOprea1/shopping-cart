@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import LogoComponent from "./LogoComponent";
 import "../styles/HomeComponent.css";
-const HomeComponent = () => {
+const HomeComponent = ({ signUpClicked }) => {
   return (
     <div className="home-container" id="home">
       <div className="home-header">
@@ -34,7 +34,9 @@ const HomeComponent = () => {
           farmers can easily purchase seeds and fertilizers while also providing
           the necessary seed and product knowledge.
         </p>
-        <button className="signInBtn">Sign in</button>
+        <button className="signInBtn" onClick={signUpClicked}>
+          Sign in
+        </button>
       </div>
     </div>
   );
