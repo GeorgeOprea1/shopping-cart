@@ -4,7 +4,19 @@ import Navbar from "./Navbar";
 const SignUpComponent = () => {
   return (
     <div className="signUp-container">
-      <Navbar />
+      <div className="signUp-header">
+        <Navbar />
+      </div>
+      <img
+        src="../src/assets/image5.avif"
+        alt="an image with some plants"
+        className="image5"
+      />
+      <img
+        src="../src/assets/image1.avif"
+        alt="an image with some plants"
+        className="image1"
+      />
     </div>
   );
 };
