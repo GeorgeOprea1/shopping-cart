@@ -99,11 +99,6 @@
 
 @media (min-width: 1750px) {
   .info-container {
-    background-color: rgba(
-      105,
-      102,
-      102,
-      0.9
-    ); /* Background color with increased opacity (70%) at 1500px */
+    background-color: rgba(105, 102, 102, 0.9);
   }
 }

@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="app-container">
       {signUp ? (
-        <SignUpComponent />
+        <SignUpComponent signUpClicked={signUpClicked} />
       ) : (
         <HomeComponent signUpClicked={signUpClicked} />
       )}
