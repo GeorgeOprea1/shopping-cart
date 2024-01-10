@@ -3,6 +3,7 @@ import App from "../App";
 import HomeComponent from "./HomeComponent";
 import SignUpComponent from "./SignUpComponent";
 import AboutComponent from "./AboutComponent";
+import ProductsComponent from "./ProductsComponent";
 
 const Router = () => {
   const router = createBrowserRouter([
@@ -21,6 +22,10 @@ const Router = () => {
     {
       path: "/about",
       element: <AboutComponent />,
+    },
+    {
+      path: "/products",
+      element: <ProductsComponent />,
     },
   ]);
 

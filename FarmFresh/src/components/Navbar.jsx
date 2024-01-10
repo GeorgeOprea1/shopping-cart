@@ -16,14 +16,13 @@ const Navbar = () => {
       >
         About
       </Link>
-      <a
-        href="#products"
-        target="_blank"
+      <Link
+        to="/products"
         rel="noopener noreferrer"
         aria-label="Link to products page"
       >
         Products
-      </a>
+      </Link>
       <div className="cart-container">
         <a
           href="#cart"
