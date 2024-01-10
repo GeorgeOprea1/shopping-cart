@@ -12,12 +12,12 @@ const SignUpComponent = () => {
       <img
         src="../src/assets/image5.avif"
         alt="an image with some plants"
-        className="image5"
+        className="image5-sign"
       />
       <img
         src="../src/assets/image1.avif"
         alt="an image with some plants"
-        className="image1"
+        className="image1-sign"
       />
       <form className="form">
         <div className="input-container">

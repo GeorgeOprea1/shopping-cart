@@ -19,7 +19,7 @@
 
 .link-container a {
   color: #696666;
-  font-size: 1.3rem;
+  font-size: calc(1rem + 0.5vw);
   text-decoration: none;
   font-weight: 600;
 }
