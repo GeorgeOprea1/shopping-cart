@@ -1,7 +1,9 @@
 import Navbar from "./Navbar";
 import LogoComponent from "./LogoComponent";
 import "../styles/HomeComponent.css";
-const HomeComponent = ({ signUpClicked }) => {
+import { Link } from "react-router-dom";
+
+const HomeComponent = () => {
   return (
     <div className="home-container" id="home">
       <div className="home-header">
@@ -34,9 +36,9 @@ const HomeComponent = ({ signUpClicked }) => {
           farmers can easily purchase seeds and fertilizers while also providing
           the necessary seed and product knowledge.
         </p>
-        <button className="signInBtn" onClick={signUpClicked}>
-          Sign in
-        </button>
+        <Link to="/sign" className="btn-container">
+          <button className="signInBtn">Sign in</button>
+        </Link>
       </div>
     </div>
   );

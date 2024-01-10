@@ -1,25 +1,21 @@
 import "../styles/Navbar.css";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="link-container">
-      <a
-        href="#home"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to home page"
-      >
+      <Link to="/home" rel="noopener noreferrer" aria-label="Link to home page">
         Home
-      </a>
-      <a
-        href="#about"
-        target="_blank"
+      </Link>
+      <Link
+        to="/about"
         rel="noopener noreferrer"
-        aria-label="Link to about page"
+        aria-label="Link
+        to about page"
       >
         About
-      </a>
+      </Link>
       <a
         href="#products"
         target="_blank"

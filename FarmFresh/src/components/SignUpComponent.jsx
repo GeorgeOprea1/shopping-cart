@@ -2,7 +2,7 @@ import "../styles/SignUpComponent.css";
 import Navbar from "./Navbar";
 import LogoComponent from "./LogoComponent";
 
-const SignUpComponent = ({ signUpClicked }) => {
+const SignUpComponent = () => {
   return (
     <div className="signUp-container">
       <div className="signUp-header">
@@ -38,9 +38,7 @@ const SignUpComponent = ({ signUpClicked }) => {
           />
         </div>
         <div className="btn-container">
-          <button className="signIn" onClick={signUpClicked}>
-            Sign In
-          </button>
+          <button className="signIn">Sign In</button>
         </div>
       </form>
     </div>

@@ -79,6 +79,14 @@
   background-color: #449933;
 }
 
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
 @media (min-width: 1000px) {
   .info-container {
     background-color: rgba(105, 102, 102, 0.6);
