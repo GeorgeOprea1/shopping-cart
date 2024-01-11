@@ -15,6 +15,7 @@
   box-sizing: border-box;
   text-align: center;
   margin: 0 auto;
+  padding: 1rem;
 }
 .product-item:hover {
   transform: scale(1.05);
@@ -48,4 +49,39 @@
 
 .product-details p.rating {
   color: #5cb85c;
+}
+
+.button-container {
+  width: 90%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#buy {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+#add {
+  background-color: #3498db;
+  color: #fff;
+  margin-left: 10px;
+}
+
+#buy:hover {
+  filter: brightness(1.2);
+}
+
+#add:hover {
+  filter: brightness(1.2);
 }

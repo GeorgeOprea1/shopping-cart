@@ -10,6 +10,10 @@ const ProductItem = ({ product }) => {
         <p>Price: ${product.price}</p>
         <p>Rating: {product.rating.rate}</p>
       </div>
+      <div className="button-container">
+        <button id="buy">Buy</button>
+        <button id="add">Add to cart</button>
+      </div>
     </div>
   );
 };
